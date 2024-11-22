@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Harcok</title>
+</head>
+
+<body>
+    
+    <table>
+        <colgroup>
+            <col span="1" class="colored-column">
+            <col span="1">
+            <col span="1" class="colored-column">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Harc megnevezése</th>
+                <th>Szembenálló felek</th>
+                <th>Haderő</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Rákóczi szabadságharc</td>
+                <td>Kuruc</td>
+                <td>70.000</td>
+            </tr>
+            <tr>
+                <td>Labanc</td>
+                <td>60.000</td>
+            </tr>
+            <tr>
+                <td rowspan="2">48-as szabadságharc</td>
+                <td>Osztrák császárság (+ Orosz birodalom)</td>
+                <td>170.000 (+ 200.000)</td>
+            </tr>
+            <tr>
+                <td>Magyar királyság</td>
+                <td>170.000</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">I. világháború</td>
+                <td>Antant</td>
+                <td>43 millió</td>
+            </tr>
+            <tr>
+                <td>Központi hatalmak</td>
+                <td>25 millió</td>
+            </tr>
+            </tr>
+
+            <tr>
+                <td>Bosworthi csata</td>
+                <td>Angolok (York + Lancester)</td>
+                <td>15.000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form id="form" action="#">
+        <label for="harc_nev">Harc megnevezése:</label><br>
+        <input type="text" id="harc_nev" name="harc_nev"><br><br>
+        <div class="error"></div>
+
+        <label for="harcolo1">1. Harcoló fél:</label><br>
+        <input type="text" id="harcolo1" name="harcolo1"><br><br>
+        <div class="error"></div>
+
+        <label for="hadero1">1. Haderő:</label><br>
+        <input type="text" id="hadero1" name="hadero1"><br><br>
+        <div class="error"></div>
+
+        <label for="harcolo2">2. Harcoló fél:</label><br>
+        <input type="text" id="harcolo2" name="harcolo2"><br><br>
+        <div class="error"></div>
+
+        <label for="hadero2">2. Haderő:</label><br>
+        <input type="text" id="hadero2" name="hadero2"><br><br>
+        <div class="error"></div>
+
+        <button>Hozzáadás</button>
+    </form>
+
+</body>
+
+</html>

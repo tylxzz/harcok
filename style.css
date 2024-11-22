@@ -1,0 +1,21 @@
+table, tr, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.colored-column{
+    background-color: green;
+}
+
+thead th {
+    background-color: green;
+}
+
+thead th:first-child, thead th:last-child{
+    background-color: white;
+}
+
+.error {
+    color: red;
+    text-shadow: 2px 2px 4px;
+}
